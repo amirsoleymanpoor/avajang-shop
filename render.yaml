@@ -8,5 +8,3 @@ services:
     envVars:
       - key: DATABASE_URL
         value: file:./prisma/dev.db
-      - key: NODE_ENV
-        value: production
